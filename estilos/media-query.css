@@ -20,6 +20,7 @@ Obs.: o layout começa a "quebrar" com 820px
 
     section#login {
         width: 80vw;
+        height: 340px;
     }
 
     section#login > div#imagem {
@@ -33,6 +34,11 @@ Obs.: o layout começa a "quebrar" com 820px
         width: 70%;
     }
 
+    div#formulario > p {
+        font-size: 1em;
+        margin: 15px 0px;
+    }
+
 }
 
 @media screen and (min-width: 992px){
@@ -43,6 +49,7 @@ Obs.: o layout começa a "quebrar" com 820px
 
     section#login {
         width: 950px;
+        height: 380px;
     }
 
     section#login > div#imagem {
@@ -57,11 +64,12 @@ Obs.: o layout começa a "quebrar" com 820px
     }
 
     div#formulario > h1 {
-        font-size: 3em;
+        font-size: 2.5em;
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
 
     
